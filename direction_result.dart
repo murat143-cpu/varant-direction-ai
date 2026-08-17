@@ -1,1 +1,0 @@
-class DirectionResult{final String direction;final int score,confidence;final double lastPrice;final List<String> reasons;final Map<String,double> metrics;const DirectionResult({required this.direction,required this.score,required this.confidence,required this.lastPrice,required this.reasons,required this.metrics});}
