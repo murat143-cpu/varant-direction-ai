@@ -1,0 +1,2 @@
+code,underlying,direction,strike,expiry,ratio,delta,leverage,bid,ask,volume
+EXAMPLE,NFLX,CALL,80,2026-09-18,0.1,0.55,6.5,1.20,1.22,10000
