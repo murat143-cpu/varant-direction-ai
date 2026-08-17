@@ -1,0 +1,1 @@
+class Candle{final DateTime time;final double open,high,low,close,volume;const Candle({required this.time,required this.open,required this.high,required this.low,required this.close,required this.volume});}

@@ -1,0 +1,1 @@
+import 'package:flutter/services.dart';import '../models/warrant.dart';class WarrantRepository{Future<List<Warrant>> load()async{final s=await rootBundle.loadString('assets/data/warrants.csv');final l=s.split(RegExp(r'\r?\n')).where((x)=>x.trim().isNotEmpty).skip(1);return l.map((x)=>Warrant.fromCsv(x.split(','))).where((x)=>x.code.isNotEmpty).toList();}}
